@@ -1,16 +1,16 @@
 # Now we have to make IMAGE from this Dockerfile
 FROM node
 
-# RUN is used to execute commands
-# RUN apt-get update 
+RUN is used to execute commands
+RUN apt-get update 
 
-# RUN apt-get install -y curl
+RUN apt-get install -y curl
 
-# RUN curl -sL https://deb.nodesource.com/setup_16.x | bash-
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash-
 
-# RUN apt-get upgrade -y
+RUN apt-get upgrade -y
 
-# RUN apt-get install -y nodejs
+RUN apt-get install -y nodejs
 
 
 # Copy the files from local to docker image
